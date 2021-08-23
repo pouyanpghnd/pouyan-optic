@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    
+    
+}
+.navbar {
+    background: black;
+    direction: rtl;
+    text-align: right;
+    
+}
+ul.menu li { 
+    display: inline-block;
+    list-style: none; 
+}
+ul.menu li a { 
+    display:inline-block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none; 
+    font-size: 20px;
+}
+ul.submenu { 
+    display: none; 
+}
+
+ul.menu li a:hover {
+    color: orange;
+}
+ul.menu li:hover ul.submenu { 
+    display: block;
+    background: #a2a2a2;
+    width: 130px; 
+} 
+  ul.submenu li { 
+      display: block; 
+      border-bottom: 1px solid #fff; 
+    }
+    ul.submenu { 
+        display: none; 
+        width: 160px; 
+        position: absolute;
+        top:42px;background: #a2a2a2;
+    }
+  ul.submenu li { 
+      display: block; 
+      border-bottom: 1px solid #fff; 
+    }
+  ul.submenu li a { 
+      display: block;
+    }
+  ul.menu li:hover ul.submenu { 
+      display: block;
+      background: #a2a2a2;
+    }
+    ul.menu li { 
+        display: inline-block;
+        list-style: none;
+        transition: all 0.4s; 
+        position: relative; 
+    }
+
+
+div.img-1 {
+    background-image: url(glasses-hand-drawn-sketch-on-black-background-vector-20804089.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 684px;
+}
+div.img-2 {
+    background-image: url(Glassesonblackbackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 430px;
+    margin-top: 0px;
+}
+div.img-3 {
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+div.img-4 {
+    background-image: url(4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 275px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+h2 {
+    color: orange;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+p {
+    color: white;
+    text-align: right;
+    font-family:  tahoma, Geneva, tahoma, sans-serif;
+    font-size: 15px;
+    font-style: initial;
+    
+}
+
+
+ul {
+    text-align: right;
+    font-style: normal;
+    font-size: larger;
+}
